@@ -1,5 +1,6 @@
 <?php
 
+
 $host = "localhost";
 $databaseName = "myDatabaseName";
 $username = "myUsername";
@@ -11,7 +12,7 @@ try {
     $databaseConnection = new PDO($dsn, $username, $password);
     echo "Connection successful.";
 } catch (PDOException $error) {
-    if($error->getCode() == 1045) {
+    if ($error->getCode() == 1045) {
         echo "Connection failed due to incorrect login details";
     } else {
         echo "Connection failed with error code " . $error->getCode();

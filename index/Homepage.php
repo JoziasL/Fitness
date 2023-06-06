@@ -4,7 +4,7 @@
     <title>Fitness</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <header>
@@ -22,7 +22,7 @@
     <section class="hero">
         <h2>Jozias en Gio Fitness project</h2>
         <p>Beste manier om kast te worden</p>
-        <a href="Login%20page.php" class="cta">Join Now</a>
+        <a href="Login.php" class="cta">Join Now</a>
     </section>
     <section class="features">
         <div class="feature">
