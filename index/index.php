@@ -10,14 +10,14 @@
 <body>
 <header class="header">
     <a href="#" class="logo">
-        <i class="fas fa-dumbbell"></i>FitNess
+        <i class="fas fa-dumbbell"></i>Fitness
     </a>
     <nav class="navbar">
-        <a href="Index.php">Home</a>
+        <a href="index.php">Home</a>
         <a href="services.php">Services</a>
         <a href="contact.php">Contact</a>
         <a href="#">|</a>
-        <a href="#">Login</a>
+        <a href="login.php">Login</a>
         <a href="#" class="btn">Sign Up</a>
     </nav>
 </header>
@@ -26,7 +26,7 @@
     <div class="max-width">
         <div class="home-content">
             <h3>help for ideal <br> body fitness</h3>
-            <p>De beste workouts voor jouw om nog voor de zomer je droomlichaam te krijgen. Ook hebben wij een calorieen calculeter om jouw idaele callorien uittereken</p>
+            <p>De beste workouts voor jou om nog voor de zomer je droomlichaam te krijgen. Ook kan je de calorieën calculator gebruiken om jouw voedingswaarden te berekenen.</p>
             <button class="btn">Get started</button>
         </div>
     </div>

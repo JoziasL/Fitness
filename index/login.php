@@ -1,66 +1,31 @@
-<link rel="stylesheet" href="style.css">
-<form method="post" action="login.php">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
-    <br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-    <br>
-    <input type="submit" value="Log In">
-</form>
-
-<input type="submit" value="Login">
-</form>
-
-<?php
-// Check if the form has been submitted
-if (isset($_POST['username']) && isset($_POST['password'])) {
-    // Sanitize the input
-    $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $password = mysqli_real_escape_string($conn, $_POST['password']);
-    // Check if the username and password are valid
-    $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
-    $result = mysqli_query($conn, $sql);
-    // If the query returns a row, the username and password are valid
-    if (mysqli_num_rows($result) == 1) {
-        // Set the session variable for the user's id
-        $_SESSION['user_id'] = mysqli_fetch_assoc($result)['id'];
-        // Redirect the user to the home page
-        header('Location: home.php');
-    } else {
-        echo "ërror";
-        // The username and password are not valid, so add an error to the errors array
-        $errors[] = 'Invalid username or password';
-    }
-}
-?>
-
-<?php
-
-require 'config.php';
-require 'database.php';
-{
-    '$errors';
-}
-
-?>
-
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Register</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="js/login.js"></script>
+    <title>Registration system PHP and MySQL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<form action="register.php" method="post">
-    <input type="text" name="username" placeholder="Username" required>
-    <input type="password" name="password" placeholder="Password" required>
-    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
-    <input type="submit" value="Register">
+<div class="header">
+    <h2>Login</h2>
+</div>
+
+<form method="post" action="login.php">
+    <?php include('errors.php'); ?>
+    <div class="input-group">
+        <label>Username</label>
+        <input type="text" name="username" >
+    </div>
+    <div class="input-group">
+        <label>Password</label>
+        <input type="password" name="password">
+    </div>
+    <div class="input-group">
+        <button type="submit" class="btn" name="login_user">Login</button>
+    </div>
+    <p>
+        Not yet a member? <a href="register.php">Sign up</a>
+    </p>
 </form>
 </body>
 </html>
-
-
-
