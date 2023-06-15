@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8fc0c0-47e8-4297-ab96-c48336cd23f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Database/Database-connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/index/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/form-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/index/form-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/index/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/index/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/db_conn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/calculator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/project website/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/errors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/index-2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project website/index-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/inlog voorbeeld/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/logincrudoop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/project website/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project website/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -37,29 +49,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MAMP/htdocs/Fitness/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/MAMP/htdocs/Fitness/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MAMP\htdocs\Fitness\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\Fitness\inlog voorbeeld" />
+      <recent name="C:\MAMP\htdocs\Fitness\project website" />
       <recent name="C:\MAMP\htdocs\Fitness\images" />
       <recent name="C:\MAMP\htdocs\Fitness" />
       <recent name="C:\MAMP\htdocs\Fitness\index" />
-      <recent name="C:\MAMP\htdocs\Fitness\Crud Systeem" />
-      <recent name="C:\MAMP\htdocs\Fitness\Index_login" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +96,10 @@
       <workItem from="1686567065625" duration="3977000" />
       <workItem from="1686659813925" duration="734000" />
       <workItem from="1686682763342" duration="1806000" />
-      <workItem from="1686725305344" duration="4030000" />
+      <workItem from="1686725305344" duration="5037000" />
+      <workItem from="1686745473128" duration="2061000" />
+      <workItem from="1686759695823" duration="2674000" />
+      <workItem from="1686821345460" duration="4169000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@
         <i class="fas fa-dumbbell"></i>FitNess
     </a>
     <nav class="navbar">
-        <a href="index.php">Home</a>
+        <a href="../inlog%20voorbeeld/home.php">Home</a>
         <a href="services.php">Services</a>
         <a href="contact.php">Contact</a>
         <a href="#">|</a>
@@ -26,5 +26,4 @@
 </section>
 </body>
 </html>
-
 
