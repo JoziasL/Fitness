@@ -153,3 +153,81 @@ form, .content {
     background: #dff0d8;
     border: 1px solid #3c763d;
     margin-bottom: 20px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li.active a {
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}

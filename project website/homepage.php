@@ -13,11 +13,11 @@
         <i class="fas fa-dumbbell"></i>FitNess
     </a>
     <nav class="navbar">
-        <a href="index-2.php">Home</a>
+        <a href="homepage.php">Home</a>
         <a href="services.php">Services</a>
         <a href="contact.php">Contact</a>
         <a href="#">|</a>
-        <a href="../inlog%20voorbeeld/login.php">Login</a>
+        <a href="../inlog%20voorbeeld/fit-create-user.php">Login</a>
         <a href="register.php" class="btn">Sign Up</a>
     </nav>
 </header>
