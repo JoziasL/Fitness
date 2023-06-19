@@ -55,19 +55,24 @@ if (isset($_POST["submit"])) {
         <form action="" method="post" style="width:50vw; min-width:300px;">
             <div class="row mb-3">
                 <div class="col">
-                    <label class="form-label">First Name:</label>
-                    <input type="text" class="form-control" name="first_name" placeholder="Kelvin">
+                    <label class="form-label">Name:</label>
+                    <input type="text" class="form-control" name="name" placeholder="Kelvin">
                 </div>
 
                 <div class="col">
-                    <label class="form-label">Last Name:</label>
-                    <input type="text" class="form-control" name="last_name" placeholder="Van der Gaag">
+                    <label class="form-label">username:</label>
+                    <input type="text" class="form-control" name="username" placeholder="Van der Gaag">
                 </div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Email:</label>
                 <input type="email" class="form-control" name="email" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password:</label>
+                <input type="text" class="form-control" name="password" placeholder="12345678">
             </div>
 
             <div>

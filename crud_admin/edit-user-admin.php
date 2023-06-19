@@ -1,5 +1,5 @@
 <?php
-include "db_conn.php";
+include "db-connect.php";
 $id = $_GET["id"];
 
 if (isset($_POST["submit"])) {
@@ -13,7 +13,7 @@ if (isset($_POST["submit"])) {
     $result = mysqli_query($conn, $sql);
 
     if ($result) {
-        header("Location: index.php?msg=Data updated successfully");
+        header("Location: admin-index.php?msg=Data updated successfully");
     } else {
         echo "Failed: " . mysqli_error($conn);
     }
@@ -62,13 +62,13 @@ if (isset($_POST["submit"])) {
         <form action="" method="post" style="width:50vw; min-width:300px;">
             <div class="row mb-3">
                 <div class="col">
-                    <label class="form-label">First Name:</label>
+                    <label class="form-label">Name:</label>
                     <input type="text" class="form-control" name="name" value="<?php echo $row['name'] ?>">
                 </div>
 
                 <div class="col">
-                    <label class="form-label">Last Name:</label>
-                    <input type="text" class="form-control" name="usernmae" value="<?php echo $row['username'] ?>">
+                    <label class="form-label">username:</label>
+                    <input type="text" class="form-control" name="username" value="<?php echo $row['username'] ?>">
                 </div>
             </div>
 
@@ -79,12 +79,12 @@ if (isset($_POST["submit"])) {
 
             <div class="mb-3">
                 <label class="form-label">Password:</label>
-                <input type="password" class="form-control" name="email" value="<?php echo $row['password'] ?>">
+                <input type="text" class="form-control" name="password" value="<?php echo $row['password'] ?>">
             </div>
 
             <div>
                 <button type="submit" class="btn btn-success" name="submit">Update</button>
-                <a href="index.php" class="btn btn-danger">Cancel</a>
+                <a href="admin-index.php" class="btn btn-danger">Cancel</a>
             </div>
         </form>
     </div>

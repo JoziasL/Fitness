@@ -1,5 +1,8 @@
 <?php
-include "db_conn.php";
+include "db-connect.php";
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 ?>
 
 <!DOCTYPE html>
@@ -40,8 +43,8 @@ include "db_conn.php";
         <thead class="table-dark">
         <tr>
             <th scope="col">ID</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
+            <th scope="col">Name</th>
+            <th scope="col">Username</th>
             <th scope="col">Email</th>
             <th scope="col">Password</th>
         </tr>
