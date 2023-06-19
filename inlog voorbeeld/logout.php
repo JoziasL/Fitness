@@ -5,3 +5,19 @@ $_SESSION = [];
 session_unset();
 session_destroy();
 header("Location: login.php");
+
+
+session_start();
+
+// Controleer of de gebruiker is ingelogd
+if (isset($_SESSION["username"])) {
+    // Gebruiker is ingelogd, dus vernietig de sessie
+    session_destroy();
+    // Doorsturen naar de inlogpagina of een andere gewenste locatie
+    header("Location: login.php");
+    exit();
+} else {
+    // Gebruiker is niet ingelogd, doorsturen naar de inlogpagina
+    header("Location: login.php");
+    exit();
+}

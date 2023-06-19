@@ -1,9 +1,7 @@
 
 <?php
 require 'db_conn.php';
-if(!empty($_SESSION["id"])){
-    header("Location:fit-create-user.php");
-}
+
 if(isset($_POST["submit"])){
     $name = $_POST["name"];
     $username = $_POST["username"];
@@ -34,6 +32,18 @@ if(isset($_POST["submit"])){
         }
     }
 }
+
+    // Controleer of het formulier is ingediend
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Verwerk het formulier en sla de gegevens op in de database
+        // ...
+
+        // Geef de homepage weer na succesvolle verwerking
+        header("Location: ../project%20website/homepage.php");
+        exit; // Belangrijk: zorg ervoor dat je de uitvoer stopt na het weergeven van de homepage
+    }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -43,7 +53,7 @@ if(isset($_POST["submit"])){
 </head>
 <body>
 <h2>Registration</h2>
-<form class="" action="" method="post" autocomplete="off">
+<form class="" action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post" autocomplete="off">
     <label for="name">Name : </label>
     <input type="text" name="name" id = "name" required value=""> <br>
     <label for="username">Username : </label>
@@ -54,7 +64,7 @@ if(isset($_POST["submit"])){
     <input type="password" name="password" id = "password" required value=""> <br>
     <label for="confirmpassword">Confirm Password : </label>
     <input type="password" name="confirmpassword" id = "confirmpassword" required value=""> <br>
-    <button type="submit" name="submit">Register</button>
+    <button type="submit" name="submit" value="send">Register</button>
 </form>
 <br>
 <a href="login.php">Login</a>
