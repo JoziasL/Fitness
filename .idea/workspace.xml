@@ -5,25 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8fc0c0-47e8-4297-ab96-c48336cd23f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/db_conn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inlog voorbeeld/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Barbend.com-Featured-Image-Calisthenics-Pull-ups.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fitness-girl-lifting-dumbbell-morning-260nw-401309230.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photo-1574680096145-d05b474e2155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/photo-1605296867304-46d5465a13f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/legs1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/legs2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/legs3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/legs4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/pull1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/pull2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/pull3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/pull4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/push1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/push2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/push3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/push4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/style-3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/style-inlog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inlog website/workoutpage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/project website/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/errors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/index-2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project website/index-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/inlog voorbeeld/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/logincrudoop.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/project website/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project website/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/MAMP/htdocs/Fitness/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MAMP/htdocs/Fitness/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MAMP\htdocs\Fitness\images" />

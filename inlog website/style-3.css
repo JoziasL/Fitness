@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+.header .logo{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+}
+.header .logo i{
+    color: #fff;
+    padding: 0.5rem;
+}
+.custom-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.custom-navbar a:last-child {
+    margin-right: 0;
+}
+
+.custom-navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+ul { padding-left: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.exercise-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
