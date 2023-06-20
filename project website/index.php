@@ -51,7 +51,7 @@ if (isset($_POST["logout"])) {
             <a href="../inlog%20voorbeeld/logout.php">logout</a>
         <?php } else { ?>
             <li><a href="../inlog%20voorbeeld/login.php">Login</a></li>
-            <li><a href="../inlog%20voorbeeld/registration.php">Register</a></li>
+            <li><a class="btn" href="../inlog%20voorbeeld/registration.php">Register</a></li>
         <?php } ?>    </nav>
 </header>
 
@@ -59,8 +59,8 @@ if (isset($_POST["logout"])) {
     <div class="max-width">
         <div class="home-content">
             <h3>help for ideal <br> body fitness</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, numquam, sequi assumenda nam, vel nihil repudiandae omnis eveniet est excepturi atque molestias at dolores fugit!</p>
-            <button class="btn">Get started</button>
+            <p>Beste site voor jouw training workouts.</p>
+            <button class="btn" >Get started</button>
         </div>
         <div class="home-image">
             <img src="../images/arnold.png" alt="">

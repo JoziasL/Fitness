@@ -13,7 +13,7 @@
             </a>
             <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">Calorie Calculator</a>
-            <a href="logout.html">Log Out</a>
+            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
         </div>
     </nav>
 </header>
@@ -27,7 +27,7 @@
     </p>
 
     <div class="exercise">
-        <img src="../images/img.png" alt="Squats" class="exercise-image">
+        <img src="../images/img_32.png" alt="Squats" class="exercise-image">
         <h3>Exercise 1: Barbell Bench Press 4x8-10</h3>
         <p>Instructions:</p>
         <ul>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_1.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_33.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 2: Incline Dumbbell Press 4x8-10</h3>
         <p>Instructions:</p>
         <ul>
@@ -51,7 +51,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_2.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_34.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 3: Standing Military Press 3x8-10</h3>
         <p>Instructions:</p>
         <ul>
@@ -62,7 +62,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_3.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_35.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 4: Dumbbell Flyes 4x10-12</h3>
         <p>Instructions:</p>
         <ul>
@@ -74,7 +74,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_4.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_36.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 5: Tricep Dips 3x8-10</h3>
         <p>Instructions:</p>
         <ul>
@@ -85,7 +85,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_5.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_37.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 6: Close-Grip Push-Ups 4x10-12</h3>
         <p>Instructions:</p>
         <ul>

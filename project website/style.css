@@ -104,7 +104,8 @@ section{
 }
 .home .home-image img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin-top: 80px;
 }
 form, .content {
     width: 30%;

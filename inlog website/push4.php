@@ -13,7 +13,7 @@
             </a>
             <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">Calorie Calculator</a>
-            <a href="logout.html">Log Out</a>
+            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
         </div>
     </nav>
 </header>
@@ -27,7 +27,7 @@
     </p>
 
     <div class="exercise">
-        <img src="../images/img.png" alt="Push-ups" class="exercise-image">
+        <img src="../images/img_43.png" alt="Push-ups" class="exercise-image">
         <h3>Exercise 1: Push-ups 4x10</h3>
         <p>Instructions:</p>
         <ul>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_1.png" alt="Dips" class="exercise-image">
+        <img src="../images/img_41.png" alt="Dips" class="exercise-image">
         <h3>Exercise 2: Dips 4x10</h3>
         <p>Instructions:</p>
         <ul>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_2.png" alt="Pike Push-ups" class="exercise-image">
+        <img src="../images/img_44.png" alt="Pike Push-ups" class="exercise-image">
         <h3>Exercise 3: Pike Push-ups 3x10</h3>
         <p>Instructions:</p>
         <ul>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_3.png" alt="Diamond Push-ups" class="exercise-image">
+        <img src="../images/img_45.png" alt="Diamond Push-ups" class="exercise-image">
         <h3>Exercise 4: Diamond Push-ups 4x10</h3>
         <p>Instructions:</p>
         <ul>
@@ -76,7 +76,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_4.png" alt="Handstand Push-ups" class="exercise-image">
+        <img src="../images/img_46.png" alt="Handstand Push-ups" class="exercise-image">
         <h3>Exercise 5: Handstand Push-ups 3x8</h3>
         <p>Instructions:</p>
         <ul>
@@ -89,7 +89,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_5.png" alt="Planche Push-ups" class="exercise-image">
+        <img src="../images/img_47.png" alt="Planche Push-ups" class="exercise-image">
         <h3>Exercise 6: Planche Push-ups 4x8</h3>
         <p>Instructions:</p>
         <ul>

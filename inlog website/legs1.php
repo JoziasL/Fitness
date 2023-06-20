@@ -13,7 +13,7 @@
             </a>
             <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">Calorie Calculator</a>
-            <a href="logout.html">Log Out</a>
+            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
         </div>
     </nav>
 </header>
@@ -97,7 +97,7 @@
             <li>Hold for a moment at the top, then lower your hips back down to the starting position.</li>
         </ul>
     </div>
-    <!-- Add workout B details here -->
 </div>
+
 </body>
 </html>

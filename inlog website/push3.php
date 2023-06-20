@@ -13,7 +13,7 @@
             </a>
             <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">Calorie Calculator</a>
-            <a href="logout.html">Log Out</a>
+            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
         </div>
     </nav>
 </header>
@@ -27,7 +27,7 @@
     </p>
 
     <div class="exercise">
-        <img src="../images/img.png" alt="Squats" class="exercise-image">
+        <img src="../images/img_32.png" alt="Squats" class="exercise-image">
         <h3>Exercise 1: Barbell Bench Press 5x5</h3>
         <p>Instructions:</p>
         <ul>
@@ -40,7 +40,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_1.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_38.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 2: Dumbbell Shoulder Press 4x8</h3>
         <p>Instructions:</p>
         <ul>
@@ -51,7 +51,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_2.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_39.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 3: Incline Dumbbell Flyes 4x10</h3>
         <p>Instructions:</p>
         <ul>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_3.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_40.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 4: Close-Grip Bench Press 4x8</h3>
         <p>Instructions:</p>
         <ul>
@@ -77,7 +77,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_4.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_41.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 5: Dips 3x10</h3>
         <p>Instructions:</p>
         <ul>
@@ -89,7 +89,7 @@
     </div>
 
     <div class="exercise">
-        <img src="../images/img_5.png" alt="Bench Press" class="exercise-image">
+        <img src="../images/img_42.png" alt="Bench Press" class="exercise-image">
         <h3>Exercise 6: Tricep Pushdowns 3x12</h3>
         <p>Instructions:</p>
         <ul>

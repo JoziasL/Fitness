@@ -13,7 +13,7 @@
             </a>
             <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">Calorie Calculator</a>
-            <a href="logout.html">Log Out</a>
+            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
         </div>
     </nav>
 </header>
