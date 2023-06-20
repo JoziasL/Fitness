@@ -20,4 +20,4 @@ if (isset($_SESSION["username"])) {
     // Gebruiker is niet ingelogd, doorsturen naar de inlogpagina
     //header("Location: ../project%20website/index.php");
     //exit();
-//}
+//  }
