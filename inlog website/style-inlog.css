@@ -1,59 +1,26 @@
-/* Add this CSS for responsiveness */
-@media only screen and (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    .exercise-image {
-        max-width: 100%;
-    }
-
-    .custom-navbar {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .custom-navbar a {
-        margin: 5px 0;
-    }
-
-    .header .logo {
-        margin-right: 10px;
-    }
-}
-
-/* The rest of your CSS code remains the same */
 body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
-.header .logo {
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header .logo{
     font-size: 22px;
     font-weight: bolder;
     color: #fff;
     padding-right: 10px;
     margin-right: 20rem;
 }
-
-.header .logo i {
+.header .logo i{
     color: #fff;
     padding: 0.5rem;
 }
-
 .custom-navbar {
     background-color: #333;
     color: #fff;
@@ -78,71 +45,38 @@ body {
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #222;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
 }
 
-h1 {
-    font-size: 36px;
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-bottom: 30px;
-    color: #fff;
 }
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #fff;
+.category-image {
+    width: 200px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 5px;
 }
 
-p {
-    margin-bottom: 20px;
-    color: #ccc;
-}
-
-ul {
-    padding-left: 20px;
-    margin-bottom: 20px;
-    color: #ccc;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-.exercise-image {
+.column a {
     display: block;
-    margin: 0 auto;
-    max-width: 300px;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 20px;
-}
-
-.navigation-buttons {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.button {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #4CAF50;
-    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
     text-decoration: none;
-    border-radius: 4px;
-    border: none;
+    color: #333;
+    background-color: #f7f7f7;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
+    width: 120px; /* Adjust the width as needed */
+    text-align: center;
 }
 
-.button:hover {
-    background-color: #45a049;
+.column a:hover {
+    background-color: #ddd;
 }

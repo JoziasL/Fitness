@@ -1,7 +1,6 @@
-/* Google Font */
+/* Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap');
-
-* {
+*{
     margin: 0;
     padding: 0;
     outline: none;
@@ -12,12 +11,10 @@
     text-transform: capitalize;
     font-family: "Poppins", sans-serif;
 }
-
-body {
+body{
     background: #000;
 }
-
-.btn {
+.btn{
     margin-top: 2rem;
     width: 150px;
     padding: 12px;
@@ -27,14 +24,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-
-.btn:hover {
+.btn:hover{
     background: rgba(212, 48, 48, 0.76);
     transition: 0.4s;
 }
-
 /* Header */
-.header {
+.header{
     position: fixed;
     top: 0;
     left: 0;
@@ -46,31 +41,26 @@ body {
     color: #fff;
     justify-content: space-between;
 }
-
-.header .logo {
+.header .logo{
     font-size: 22px;
     font-weight: bolder;
     color: #fff;
     padding-right: 10px;
     margin-right: 20rem;
 }
-
-.header .logo i {
+.header .logo i{
     color: #fff;
     padding: 0.5rem;
 }
-
-.header .navbar a {
+.header .navbar a{
     font-size: 1.1rem;
     margin: 0 1rem;
     color: #fff;
 }
-
-.header .navbar a:hover {
+.header .navbar a:hover{
     color: #baa6cf;
 }
-
-.header .btn {
+.header .btn{
     background: transparent;
     color: tomato;
     border: 1px solid tomato;
@@ -79,94 +69,76 @@ body {
 }
 
 /* Home Section */
-.max-width {
+.max-width{
     max-width: 1300px;
-    padding: 0 20px; /* Adjusted padding */
+    padding: 0 80px;
     margin: auto;
 }
-
-section {
-    padding: 50px 0;
+section{
+    padding: 50px 0 50px 0;
 }
-
-.home {
+.home{
     display: flex;
-    flex-wrap: wrap; /* Added flex-wrap */
 }
-
-.home .max-width {
+.home .max-width{
     width: 100%;
     display: flex;
-    flex-wrap: wrap; /* Added flex-wrap */
 }
-
-.home .home-content {
-    width: 100%; /* Adjusted width */
+.home .home-content{
+    width: 50%;
     padding: 2rem;
 }
-
-.home h3 {
+.home h3{
     color: #fff;
     margin-top: 6rem;
     font-size: 5rem;
     font-family: 'Philosopher', sans-serif;
 }
-
-.home p {
+.home p{
     color: rgb(194, 191, 191);
     margin-top: 1rem;
     font-size: 12px;
 }
-
-.home .home-image {
-    width: 100%; /* Adjusted width */
+.home .home-image{
+    width: 50%;
+}
+.home .home-image img{
+    width: 100%;
+    height: auto;
     margin-top: 80px;
-    text-align: center; /* Added text-align */
 }
-
-.home .home-image img {
-    max-width: 100%; /* Adjusted width */
-    height: auto; /* Added height:auto */
-}
-
-form,
-.content {
-    width: 100%; /* Adjusted width */
+form, .content {
+    width: 30%;
     margin: 0px auto;
     padding: 20px;
-    border: 1px solid #b0c4de;
+    border: 1px solid #B0C4DE;
     background: white;
     border-radius: 0px 0px 10px 10px;
 }
-
 .input-group {
     margin: 10px 0px 10px 0px;
 }
-
 .input-group label {
     display: block;
     text-align: left;
     margin: 3px;
 }
-
 .input-group input {
     height: 30px;
-    width: 100%; /* Adjusted width */
+    width: 93%;
     padding: 5px 10px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid gray;
 }
-
 .btn {
     padding: 10px;
     font-size: 15px;
     color: white;
-    background: #5f9ea0;
+    background: #5F9EA0;
     border: none;
     border-radius: 5px;
 }
-
 .error {
     width: 92%;
     margin: 0px auto;
@@ -177,7 +149,6 @@ form,
     border-radius: 5px;
     text-align: left;
 }
-
 .success {
     color: #3c763d;
     background: #dff0d8;
