@@ -39,7 +39,7 @@ if(isset($_POST["submit"])){
         // ...
 
         // Geef de homepage weer na succesvolle verwerking
-        header("Location: ../project%20website/homepage.php");
+        header("Location: login.php");
         exit; // Belangrijk: zorg ervoor dat je de uitvoer stopt na het weergeven van de homepage
     }
 

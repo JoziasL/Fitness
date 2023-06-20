@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,13 +14,25 @@
             </a>
             <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">calorie calculator</a>
-            <a href="logout.html">Log Out</a>
+            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
         </div>
     </nav>
 </header>
 
 <h1>Workout Categories</h1>
+<h1>
+<?php
+session_start();
 
+// Controleren of de gebruiker is ingelogd
+if (isset($_SESSION["username"])) {
+    $username = $_SESSION["username"];
+    echo "Welcome, $username!";
+} else {
+    echo "Welcome!";
+}
+?>
+</h1>
 <div class="container">
     <div class="column">
         <h2>Beginner Workout</h2>

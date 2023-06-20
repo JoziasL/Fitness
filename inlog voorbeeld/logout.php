@@ -14,10 +14,10 @@ if (isset($_SESSION["username"])) {
     // Gebruiker is ingelogd, dus vernietig de sessie
     session_destroy();
     // Doorsturen naar de inlogpagina of een andere gewenste locatie
-    header("Location: login.php");
+    header("Location: ../project%20website/index.php");
     exit();
-} else {
+}// else {
     // Gebruiker is niet ingelogd, doorsturen naar de inlogpagina
-    header("Location: login.php");
-    exit();
-}
+    //header("Location: ../project%20website/index.php");
+    //exit();
+//}

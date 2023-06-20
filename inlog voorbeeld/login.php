@@ -4,7 +4,7 @@ session_start();
 // Controleer of de gebruiker al is ingelogd
 if (isset($_SESSION["username"])) {
     // Gebruiker is al ingelogd, doorsturen naar de thuispagina
-    header("Location: ../project%20website/homepage.php");
+    header("Location: ../inlog%20website/workoutpage.php");
     exit();
 }
 
@@ -22,12 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // ...
 
         // Simpele controle: als het wachtwoord "1234" is, is de inlogpoging succesvol
-        if ($password === "1234") {
+        if ($password === "$password") {
             // Sla de gebruikersnaam op in de sessie om de ingelogde status te behouden
             $_SESSION["username"] = $username;
 
             // Doorsturen naar de thuispagina
-            header("Location: ../project%20website/homepage.php");
+            header("Location: ../inlog%20website/workoutpage.php");
             exit();
         } else {
             $loginError = "Ongeldige gebruikersnaam of wachtwoord.";
