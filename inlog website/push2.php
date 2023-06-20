@@ -12,13 +12,13 @@
                 <i class="fas fa-dumbbell"></i>FitNess
             </a>
             <a href="workoutpage.php">Workout</a>
-            <a href="calorie_calculator.html">calorie calculator</a>
+            <a href="calorie_calculator.html">Calorie Calculator</a>
             <a href="logout.html">Log Out</a>
         </div>
     </nav>
 </header>
 <div class="container">
-    <h1>Beginner Workout</h1>
+    <h1>Intermediate Workout</h1>
 
     <h2>Workout A</h2>
     <p>
@@ -27,83 +27,71 @@
     </p>
 
     <div class="exercise">
-        <img src="squats.jpg" alt="Squats" class="exercise-image">
-        <h3>Exercise 1: Chest press</h3>
+        <img src="../images/img.png" alt="Squats" class="exercise-image">
+        <h3>Exercise 1: Barbell Bench Press 4x8-10</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Set up the barbell on a squat rack at shoulder height.</li>
-            <li>Stand with your feet shoulder-width apart.</li>
-            <li>Step under the bar and position it across your upper back.</li>
-            <li>Unrack the bar and take a step back.</li>
-            <li>Lower your body by bending your knees and hips, keeping your chest up.</li>
-            <li>Go as low as you can while maintaining proper form.</li>
-            <li>Push through your heels to return to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Lie flat on a bench with your feet planted firmly on the ground.</li>
+            <li>Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.</li>
+            <li>Lower the barbell towards your chest, keeping your elbows at a 90-degree angle and engaging your core.</li>
+            <li>Push the barbell upward, extending your arms fully while maintaining control and stability.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 2: Incline chest press</h3>
+        <img src="../images/img_1.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 2: Incline Dumbbell Press 4x8-10</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Set an adjustable bench at an inclined angle (around 30-45 degrees).</li>
+            <li>Lie back on the bench with your feet flat on the floor and grasp the dumbbells with an overhand grip.</li>
+            <li>Lower the dumbbells towards your upper chest, keeping your elbows at a 90-degree angle.</li>
+            <li>Push the dumbbells back up to the starting position, fully extending your arms while engaging your core. Repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 3: schoulder pres [shoulder]</h3>
+        <img src="../images/img_2.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 3: Standing Military Press 3x8-10</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Stand with your feet shoulder-width apart and hold a barbell at shoulder level, palms facing forward.</li>
+            <li>Press the barbell upward, extending your arms fully while keeping your back straight.</li>
+            <li>Lower the barbell back down to shoulder level and repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 4: cable latrle rais [shoulder]</h3>
+        <img src="../images/img_3.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 4: Dumbbell Flyes 4x10-12</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Lie flat on a bench with a dumbbell in each hand, palms facing each other.</li>
+            <li>Extend your arms above your chest, slightly bending your elbows.</li>
+            <li>Lower the dumbbells out to the sides in a wide arc until you feel a stretch in your chest.</li>
+            <li>Bring the dumbbells back up to the starting position, squeezing your chest muscles. Repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 5: cable pushdown [tricep] </h3>
+        <img src="../images/img_4.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 5: Tricep Dips 3x8-10</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Position yourself between parallel bars with your arms extended and supporting your bodyweight.</li>
+            <li>Lower your body by bending your elbows until your upper arms are parallel to the floor.</li>
+            <li>Push yourself back up to the starting position, fully extending your arms. Repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 6: single cable pushdown [tricep] </h3>
+        <img src="../images/img_5.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 6: Close-Grip Push-Ups 4x10-12</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Assume a push-up position with your hands close together, directly under your shoulders.</li>
+            <li>Lower your body by bending your elbows, keeping them close to your sides.</li>
+            <li>Push yourself back up to the starting position, fully extending your arms. Repeat for the desired number of repetitions.</li>
         </ul>
     </div>
     <!-- Add workout B details here -->

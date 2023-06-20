@@ -12,98 +12,89 @@
                 <i class="fas fa-dumbbell"></i>FitNess
             </a>
             <a href="workoutpage.php">Workout</a>
-            <a href="calorie_calculator.html">calorie calculator</a>
+            <a href="calorie_calculator.html">Calorie Calculator</a>
             <a href="logout.html">Log Out</a>
         </div>
     </nav>
 </header>
 <div class="container">
-    <h1>Beginner Workout</h1>
+    <h1>Advanced Workout</h1>
 
     <h2>Workout A</h2>
     <p>
-        This is the first workout of the intermediate barbell workout program.
-        It focuses on compound exercises to target push muscle groups.
+        This is the first workout of the advanced legs workout program.
+        It focuses on challenging compound exercises to target leg muscle groups.
     </p>
 
     <div class="exercise">
-        <img src="squats.jpg" alt="Squats" class="exercise-image">
-        <h3>Exercise 1: Chest press</h3>
+        <img src="../images/img_6.png" alt="Squats" class="exercise-image">
+        <h3>Exercise 1: Barbell Squats 4x8</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Set up the barbell on a squat rack at shoulder height.</li>
-            <li>Stand with your feet shoulder-width apart.</li>
-            <li>Step under the bar and position it across your upper back.</li>
-            <li>Unrack the bar and take a step back.</li>
-            <li>Lower your body by bending your knees and hips, keeping your chest up.</li>
-            <li>Go as low as you can while maintaining proper form.</li>
-            <li>Push through your heels to return to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Place a barbell on your upper back and stand with your feet shoulder-width apart.</li>
+            <li>Lower your body down by bending at the hips and knees, keeping your back straight and your core engaged.</li>
+            <li>Go as low as you can while maintaining proper form, then push through your heels to return to the starting position.</li>
+            <li>Repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 2: Incline chest press</h3>
+        <img src="../images/img_7.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 2: Romanian Deadlifts 4x10</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Stand with your feet hip-width apart, holding a barbell in front of your thighs with an overhand grip.</li>
+            <li>Keeping your back straight and your core engaged, hinge at the hips and lower the barbell down the front of your legs.</li>
+            <li>Lower the barbell until you feel a stretch in your hamstrings, then squeeze your glutes to return to the starting position.</li>
+            <li>Repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 3: schoulder pres [shoulder]</h3>
+        <img src="../images/img_13.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 3: Bulgarian Split Squats 4x12</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Stand with one foot forward and one foot back, placing the top of your back foot on a bench or elevated surface.</li>
+            <li>Lower your body down by bending your front knee, keeping your back straight and your core engaged.</li>
+            <li>Go as low as you can while maintaining balance and proper form, then push through your front heel to return to the starting position.</li>
+            <li>Repeat for the desired number of repetitions, then switch sides.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 4: cable latrle rais [shoulder]</h3>
+        <img src="../images/img_14.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 4: Box Jumps 4x8</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Stand in front of a sturdy box or platform.</li>
+            <li>Bend your knees and jump explosively onto the box, landing softly with both feet.</li>
+            <li>Step down or jump back down to the starting position and repeat for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 5: cable pushdown [tricep] </h3>
+        <img src="../images/img_11.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 5: Walking Lunges 3x12</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Start standing with your feet hip-width apart.</li>
+            <li>Take a big step forward with your right foot and lower your body down by bending both knees.</li>
+            <li>Keep your torso upright and your front knee in line with your ankle.</li>
+            <li>Push off your front foot and bring your back foot forward, stepping into the next lunge.</li>
+            <li>Continue alternating legs and walking forward for the desired number of repetitions.</li>
         </ul>
     </div>
 
     <div class="exercise">
-        <img src="bench_press.jpg" alt="Bench Press" class="exercise-image">
-        <h3>Exercise 6: single cable pushdown [tricep] </h3>
+        <img src="../images/img_10.png" alt="Bench Press" class="exercise-image">
+        <h3>Exercise 6: Calf Raises 3x15</h3>
         <p>Instructions:</p>
         <ul>
-            <li>Lie down on a flat bench with your feet flat on the floor.</li>
-            <li>Grab the barbell with a grip slightly wider than shoulder-width apart.</li>
-            <li>Unrack the bar and lower it to your mid-chest.</li>
-            <li>Pause briefly, then push the bar back up to the starting position.</li>
-            <li>Repeat for the prescribed number of reps.</li>
+            <li>Stand on an elevated surface with the balls of your feet, such as a step or a calf raise machine.</li>
+            <li>Lower your heels as far as you can, feeling a stretch in your calves.</li>
+            <li>Push through the balls of your feet to raise your heels as high as you can, squeezing your calves at the top.</li>
+            <li>Lower your heels back down and repeat for the desired number of repetitions.</li>
         </ul>
     </div>
     <!-- Add workout B details here -->

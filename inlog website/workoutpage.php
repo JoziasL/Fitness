@@ -11,7 +11,7 @@
             <a href="#" class="logo">
                 <i class="fas fa-dumbbell"></i>FitNess
             </a>
-            <a href="workoutpage.html">Workout</a>
+            <a href="workoutpage.php">Workout</a>
             <a href="calorie_calculator.html">calorie calculator</a>
             <a href="logout.html">Log Out</a>
         </div>
