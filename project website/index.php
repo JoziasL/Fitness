@@ -34,8 +34,6 @@ if (isset($_POST["logout"])) {
     <meta charset="UTF-8">
     <title>FitNess - Home | By Code Info</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome Iocns cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 <body>
 <header class="header">
@@ -44,7 +42,6 @@ if (isset($_POST["logout"])) {
     </a>
     <nav class="navbar">
         <a href="index.php">Home</a>
-        <a href="services.php">Services</a>
         <a href="contact.php">Contact</a>
         <?php if ($loggedIn) { ?>
             <a href="#">Profile</a>

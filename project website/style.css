@@ -1,5 +1,4 @@
-/* Google Font*/
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -68,7 +67,7 @@ body{
     padding: 8px;
 }
 
-/* Home Section */
+/* Homepagina Section */
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
