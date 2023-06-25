@@ -1,12 +1,7 @@
 <?php
 session_start();
 
-// Controleer of de gebruiker al is ingelogd
-if (isset($_SESSION["username"])) {
-    // Gebruiker is al ingelogd, doorsturen naar de thuispagina
-    header("Location: ../inlog%20website/workoutpage.php");
-    exit();
-}
+
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -41,9 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.cs">
     <title>Login</title>
 </head>
 <body>
@@ -62,6 +55,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
     <div>
         <input type="submit" value="Inloggen">
+    </div>
+    <div>
+        <input type="submit" value="Register">
     </div>
 </form>
 </body>

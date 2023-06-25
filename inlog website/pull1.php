@@ -4,19 +4,9 @@
     <link rel="stylesheet" type="text/css" href="style-3.css">
 </head>
 <body>
-<header class="header">
-
-    <nav>
-        <div class="custom-navbar">
-            <a href="#" class="logo">
-                <i class="fas fa-dumbbell"></i>FitNess
-            </a>
-            <a href="workoutpage.php">Workout</a>
-            <a href="calorie_calculator.html">Calorie Calculator</a>
-            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
-        </div>
-    </nav>
-</header>
+<?php
+include_once 'header.php';
+?>
 <div class="container">
     <h1>Beginner Workout</h1>
 

@@ -1,33 +1,4 @@
-<?php
-require '../inlog voorbeeld/db_conn.php';
-session_start();
 
-// Controleer of de gebruiker is ingelogd
-//if (!isset($_SESSION["username"])) {
-//    // Gebruiker is niet ingelogd, doorsturen naar de inlogpagina
-//    header("Location: index.php");
-////    exit();
-//}
-
-// Gebruiker is ingelogd, haal de gebruikersnaam op uit de sessie
-$username = $_SESSION["username"];
-
-// Controleer of de gebruiker is ingelogd
-$loggedIn = false;
-if (isset($_SESSION["username"])) {
-    $loggedIn = true;
-}
-
-// Logout functionaliteit
-if (isset($_POST["logout"])) {
-    // Uitloggen door de sessie te verwijderen
-    session_destroy();
-    // Doorsturen naar de inlogpagina of een andere gewenste locatie
-    header("Location: index.php");
-//    exit();
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,13 +14,10 @@ if (isset($_POST["logout"])) {
     <nav class="navbar">
         <a href="index.php">Home</a>
         <a href="contact.php">Contact</a>
-        <?php if ($loggedIn) { ?>
-            <a href="#">Profile</a>
-            <a href="../inlog%20voorbeeld/logout.php">logout</a>
-        <?php } else { ?>
-            <li><a href="../inlog%20voorbeeld/login.php">Login</a></li>
-            <li><a class="btn" href="../inlog%20voorbeeld/registration.php">Register</a></li>
-        <?php } ?>    </nav>
+        <a href="#">|</a>
+        <a href="../inlog%20voorbeeld/login.php">Login</a>
+        <a href="../inlog%20voorbeeld/registration.php" class="btn">Sign Up</a>
+    </nav>
 </header>
 
 <section class="home">

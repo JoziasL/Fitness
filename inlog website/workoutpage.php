@@ -5,20 +5,9 @@
     <link rel="stylesheet" href="style-inlog.css">
 </head>
 <body>
-<header class="header">
-
-    <nav>
-        <div class="custom-navbar">
-            <a href="#" class="logo">
-                <i class="fas fa-dumbbell"></i>FitNess
-            </a>
-            <a href="workoutpage.php">Workout</a>
-            <a href="calorie_calculator.html">calorie calculator</a>
-            <a href="../inlog%20voorbeeld/logout.php">Log Out</a>
-        </div>
-    </nav>
-</header>
-
+<?php
+include_once 'header.php';
+?>
 <h1>Workout Categories</h1>
 <h1>
 <?php

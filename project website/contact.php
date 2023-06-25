@@ -13,8 +13,8 @@
         <a href="index.php">Home</a>
         <a href="contact.php">Contact</a>
         <a href="#">|</a>
-        <a href="#">Login</a>
-        <a href="#" class="btn">Sign Up</a>
+        <a href="../inlog%20voorbeeld/login.php">Login</a>
+        <a href="../inlog%20voorbeeld/registration.php" class="btn">Sign Up</a>
     </nav>
     <style>
         body {
