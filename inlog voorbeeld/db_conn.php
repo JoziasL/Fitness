@@ -6,6 +6,7 @@ $password = "root";
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
+//try catch blok aanmaken voor eventuele uitzonderingen af te vangen van de database
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname",
         $username, $password);
@@ -15,4 +16,7 @@ try {
     echo "Connectie mislukt: " . $e->getMessage();
 }
 ?>
+
+
+
 

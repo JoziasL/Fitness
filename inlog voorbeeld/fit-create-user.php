@@ -21,7 +21,7 @@ else{
     <title>Index</title>
 </head>
 <body>
-<h1>Welcome <?php echo $results["name"]; ?></h1>
+<h1>Welcome <?php echo $row["name"]; ?></h1>
 <a href="logout.php">Logout</a>
 </body>
 </html>

@@ -5,9 +5,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-//Deze code controleert of het HTTP-verzoekstype "POST" is.
+//Deze code controleert of het HTTP-verzoekstype "POST" is. deze code betekent dat de code wordt geactiveerd wanneer het inlogformulier wordt ingediend.
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Controleert of de vereiste formuliervelden zijn ingestuurd betekent dat deze code wordt geactiveerd wanneer het inlogformulier wordt ingediend.
+    // Controleert of de vereiste formuliervelden zijn ingestuurd.
     if (isset($_POST["username"]) && isset($_POST["password"])) {
         $username = $_POST["username"];
         $password = $_POST["password"];
@@ -52,8 +52,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <input type="submit" value="Inloggen">
     </div>
 </form>
-<div>
-        <input type="submit" value="Register">
-</div>
 </body>
 </html>
