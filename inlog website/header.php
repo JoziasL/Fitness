@@ -1,7 +1,4 @@
-<head>
-<body>
 <header class="header">
-
     <nav>
         <div class="custom-navbar">
             <a href="#" class="logo">

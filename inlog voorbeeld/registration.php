@@ -9,14 +9,18 @@ if(isset($_POST["submit"])){
     $password = $_POST["password"];
     $confirmpassword = $_POST["confirmpassword"];
 
+    //hier controleer ik of de username of gebruikersnaam al word gebruikt
     $query = $conn -> prepare("SELECT * FROM users WHERE username = '$username' OR email = '$email'");
     $query -> execute();
+
+    //deze gegevens hierboven worden worden met de code fetchAll hieronder opgehaald
     $result = $query -> fetchAll(PDO::FETCH_ASSOC);
 
     if(count($result) > 0){
         echo
         "<script> alert('Username or Email Has Already Taken'); </script>";
     }
+    //hier onder word gecontroleerd of het wachtwoord overeenkomt met het bevestigingswachtwoord.
     else{
         if($password == $confirmpassword){
             $query = "INSERT INTO users VALUES(null,'$name','$username','$email','$password')";
@@ -40,10 +44,8 @@ if(isset($_POST["submit"])){
 
         // Geef de homepage weer na succesvolle verwerking
         header("Location: login.php");
-        exit; // Belangrijk: zorg ervoor dat je de uitvoer stopt na het weergeven van de homepage
+        exit;
     }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

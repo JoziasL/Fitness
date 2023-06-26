@@ -1,24 +1,18 @@
 <?php
 session_start();
 
-
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+//Deze code controleert of het HTTP-verzoekstype "POST" is.
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Controleer of de vereiste formuliervelden zijn ingestuurd
     if (isset($_POST["username"]) && isset($_POST["password"])) {
         $username = $_POST["username"];
         $password = $_POST["password"];
 
-        // Voer hier je inloglogica uit
-        // ...
-
-        // Simpele controle: als het wachtwoord "1234" is, is de inlogpoging succesvol
         if ($password === "$password") {
-            // Sla de gebruikersnaam op in de sessie om de ingelogde status te behouden
             $_SESSION["username"] = $username;
 
             // Doorsturen naar de thuispagina
@@ -36,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.cs">
+    <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <body>
@@ -56,9 +50,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <div>
         <input type="submit" value="Inloggen">
     </div>
-    <div>
-        <input type="submit" value="Register">
-    </div>
 </form>
+<div>
+        <input type="submit" value="Register">
+</div>
 </body>
 </html>
