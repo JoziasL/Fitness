@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 
 //Deze code controleert of het HTTP-verzoekstype "POST" is.
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Controleer of de vereiste formuliervelden zijn ingestuurd
+    // Controleert of de vereiste formuliervelden zijn ingestuurd betekent dat deze code wordt geactiveerd wanneer het inlogformulier wordt ingediend.
     if (isset($_POST["username"]) && isset($_POST["password"])) {
         $username = $_POST["username"];
         $password = $_POST["password"];
@@ -21,7 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         } else {
             $loginError = "Ongeldige gebruikersnaam of wachtwoord.";
         }
-    } else {
+    }
+    else {
         $loginError = "Niet alle vereiste velden zijn ingevuld.";
     }
 }
